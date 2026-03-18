@@ -79,10 +79,12 @@ export default function ProductList({
   };
 
   /* ---------------- Selection ---------------- */
+  //Adding test
 
   const toggleSelectAll = () => {
     if (!selectAll) {
       setSelectedIds(initialProducts.map((p) => p.uuid));
+      console.log("Test")
     } else {
       setSelectedIds([]);
     }
