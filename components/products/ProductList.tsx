@@ -66,7 +66,7 @@ export default function ProductList({
     return () => clearTimeout(timeout);
   }, [searchTerm]);
 
-  /* ---------------- Pagination ---------------- */
+  /* ---------------- Pagination ---------------- */ 
 
   const goToPage = (page: number) => {
     const params = new URLSearchParams(searchParams.toString());
